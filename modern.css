@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.round{
+    border-radius: 10px;
+}
+
+                                                            /* Navigation Bar */
+
+nav{
+    height: 60px;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 5%;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 4px 0px;
+}
+
+#navleft{
+    justify-content: start;
+}
+#btn{
+    background-color: white;
+    height: 70px;
+    border: none;
+}
+#btn:hover{
+    cursor: pointer;
+}
+
+#one{
+    border-bottom: 2px solid orange;
+}
+#two{
+    border-bottom: 2px solid white;
+}
+#three{
+    border-bottom: 2px solid lightgreen ;
+}
+#menu{
+    display: none;
+    position: fixed;
+    left: 10;
+    top: 0;
+    background-color: white;
+    height: 100vh;
+    width: 40vw;
+    z-index: 10;
+    padding-left: 4vw;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#btn1{
+    background-color: white;
+    height: 70px;
+    border: none;
+}
+#btn1:hover{
+    cursor: pointer;
+}
+#menucontainer{
+    height: 50vh;
+    width: 25vw;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#menucontainer p{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 15px;
+    background-color: bisque;
+}
+#menucontainer p a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+#menucontainer p:hover{
+    border-bottom: 2px solid black;
+}
+
+#name{
+    font-weight: 800;
+    font-size: 1.7em;
+    letter-spacing: 4px ;
+    padding: 10px;
+    padding-top: 14px;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+#login{
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+                                                          /* First Content Section */
+
+
+.home{
+    margin-top: 70px;
+    height: 55vh;
+    margin-left: 4%;
+    margin-right: 4%;
+    /* background-color: rgb(235,205,171); */
+    background-color: bisque;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+#child1{
+    padding-top: 3%;
+    padding-left: 5%;
+    height: 45vh;
+    width: 40vw;
+    /* background-color: bisque; */
+}
+#child1 h2{
+    font-size: 2.5em;
+}
+#child1 h1{
+    font-size: 4em;
+}
+#child1 p{
+    margin-top: 40px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+#child1 a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+}
+#child1 a:hover{
+    text-decoration: underline;
+}
+#child2{
+    height: 50vh;
+    width: 40vw;
+}
+#cvid{
+    width: 500px;
+    height: 90%;
+    overflow: hidden;
+}
+#vid{
+    margin-top: -300px;
+}
+
+                                                    /* Second Column Section */
+
+#home2{
+    margin-top: 40px;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 75vh;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(252, 252, 151); */
+    /* background-color: lightblue ; */
+}
+#child3{
+    height: 75vh;
+    width: 40%;
+    padding: 40px;
+    background-color: lightblue ;
+    /* background-color: rgb(253, 253, 181); */
+    /* background-color: rgb(252, 252, 151); */
+}
+#child3 h1{
+    margin: 20px;
+}
+#child3 p{
+    margin: 50px;
+    text-align: center;
+}
+#child3 h2{
+    padding-left: 20px;
+}
+#child5{
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 100px;
+    height: 70vh;
+    width: 55%;
+    /* background-color: lightblue; */
+}
+#child5 h1{
+    font-size: 3em;
+}
+#child5 p{
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-style: italic;
+}
+.learnlink{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.learnlink:hover{
+    text-decoration: underline;
+}
+
+
+#home3{
+    margin-top: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: center;
+}
+#child6{
+    height: 65vh;
+    padding: 20px;
+    padding-top: 7%;
+    width: 40vw;
+    /* background-color: lightskyblue;   */
+}
+#child6 h3{
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+#child6 h1{
+    font-size: 3.2em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+} 
+#child6 a{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    background-color: brown;
+    margin: 10px;
+    color: white;
+}
+#child6 a:hover{
+    text-decoration: underline;
+}
+#child7 img{
+    width: 500px;
+}
+#contacts{
+    height: 60vh;
+    margin-top: 20px;
+    background-color: brown;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+#containercontacts{
+    height: 60vh;
+    width: 100%;
+}
+#cone{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 30vh;
+    width: 45%;
+    color: white;
+    font-size: 1.2em;
+}
+#cone h1{
+    margin-top: 10px;
+}
+#ctwo{
+    background-color: blueviolets;
+    height: 55vh;
+    width: 40%;
+}
+
+
+
+#volunteer{
+    height: 20vh;
+    margin-top: 40px;
+    background-color: burlywood;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#volunteer a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid black;
+    font-weight: 600;
+}
+#volunteer a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+footer{
+    margin-top: 40px;
+    height: 20vh;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+}
+#footerright{
+    font-size: 1.2em;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stats.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="flex">
+        <div id="navleft" class="flex">
+          <button id="btn"><img src="icons8-menu-64.png" alt="menu" /></button>
+          <a href="index.html" id="name"
+            ><span id="one">Nasha</span><span id="two">Mukt</span
+            ><span id="three">Bharat</span></a
+          >
+        </div>
+        <div class="flex">
+          <a href="login.html"
+            ><img
+              src="iconmonstr-user-19-240.png"
+              alt="login"
+              style="width: 40px"
+          /></a>
+          <p id="login">
+            <a href="login.html" style="text-decoration: none; color: black">
+              Profile</a
+            >
+          </p>
+        </div>
+      </nav>
+      <div id="menu">
+        <button id="btn1"><img src="iconmonstr-x-mark-1-240.png" alt="menu" style="width: 35px; margin-left:15px;"/></button>
+        <div id="menucontainer">
+          <p><a href="login.html">Your Profile</a></p>
+          <p><a href="addictiontst.html">Addiction Test</a></p>
+          <p><a href="stats.html">Global Statistics</a></p>
+          <p><a href="knowledge.html">Managing Addiction</a></p>
+          <!-- <p><a href="#">FAQ</a></p> -->
+          <p><a href="message.html">Messages from Real life fighters</a></p>
+          <p><a href="frm.html">Become a volunteer / Need Volunteers</a></p>
+        </div>
+      </div>
+
+
+        <div id="first" class="cntnr">
+            <div class="heading">
+                <h1>Substance Use Disorders</h1>
+                <hr>
+            </div>
+            <div class="flex containerdata">
+                <div id="lefty">
+                    <h2>Alcohol disorders have the highest death toll amongst substance use disorders</h2>
+                    <p>Collectively, all substances shown in red are classified as ‘illicit drugs’.</p>
+                    <p>globally alcohol has the highest death toll amongst substance use disorders. Deaths from opioid overdoses have increased significantly in recent years and now exceed 80,000 globally.</p>
+                </div>
+                <iframe src="https://ourworldindata.org/grapher/deaths-substance-disorders?country=~IND" loading="lazy" style="width: 45%; height: 450px; border: 0px none;"></iframe>
+            </div>
+            <div class="flex containerdata">
+              <iframe src="https://ourworldindata.org/grapher/deaths-substance-disorders-age?country=~IND" loading="lazy" style="width: 45%; height: 450px; border: 0px none;"></iframe>
+              <div id="lefty">
+                  <h2>Most number of deaths due to substance use disorders are young</h2>
+                  <p>More than half the people who die of substance addiction are below the age of fifty.</p>
+                  <p>This also shows the impact of substance addiction on the youth and the importance of educating them.</p>
+              </div>
+            </div>
+            <div class="flex containerdata">
+              <div id="lefty">
+                  <h2>1.5% of global disease burden results from alcohol and illicit drug addiction; in some countries it’s over 5%</h2>
+                  <p>Using the measure of deaths fails to capture the full health consequences of substance use disorders. Drugs not only lead to death, but also to diseases and disabilities that impact people’s health.</p>
+                  <p>In the map we see the share of disease burden attributed to substance use disorders. 1.5% of global disease burden is attributed to alcohol and illicit drug addiction.</p>
+                  <p>In some countries this share is much higher: in the USA it accounts for more than 5% of disease burden.</p>
+              </div>
+              <iframe src="https://ourworldindata.org/grapher/alcohol-drug-use-disorders-share-total-disease" loading="lazy" style="width: 45%; height: 450px; border: 0px none;"></iframe>
+            </div>
+            <div class="flex containerdata">
+              <div id="lefty">
+                  <h2>Death rate due to smoking</h2>
+                  <p>When we look at the breakdown of deaths from smoking by age we see that it is mainly older populations that are affected. Whereas younger generations are affected more by drus use and alcohol.</p>
+                  <p>death rates from smoking are much higher in people older than 70 years old, followed by those aged 50 to 69. Death rates for younger adults and children are very low.</p>
+              </div>
+              <iframe src="https://ourworldindata.org/grapher/death-rates-smoking-age?country=~IND" loading="lazy" style="width: 45%; height: 450px; border: 0px none;"></iframe>
+            </div>
+            <div class="flex containerdata">
+              <iframe src="https://ourworldindata.org/grapher/deaths-attributed-to-alcohol-use-by-age?country=~IND" loading="lazy" style="width: 45%; height: 450px; border: 0px none;"></iframe>
+              <div id="lefty">
+                  <h2>Death rate due to Alcohol Consumption</h2>
+                  <p>Alcohol is the top contributor to substance addiction.</p>
+                  <p>Almost 2% of the global population is dependent on alcohol.</p>
+                  <p>The effect of alcohol is very similar in young and middle aged people. With lesser effects on older population.</p>
+                  <p></p>
+              </div>
+            </div>
+            <div class="flex containerdata">
+              <div id="lefty">
+                  <h2>Death rate due to Drugs and Opioids</h2>
+                  <p>Overdoses of illicit drugs caused an estimated 128,000 deaths in 2019; 69% were younger than 50 years old.</p>
+                  <p>The part population affected most by drugs are the youth. The current culture among the teens gives rise to drug intake.</p>
+              </div>
+              <iframe src="https://ourworldindata.org/grapher/deaths-from-drug-use-disorders-by-age?country=~IND" loading="lazy" style="width: 45%; height: 450px; border: 0px none;"></iframe>
+            </div>
+
+        </div>
+
+
+
+
+        <footer class="flex">
+            <div id="footerleft">
+              <a href="#" id="name"
+                ><span id="one">Nasha</span><span id="two">Mukt</span
+                ><span id="three">Bharat</span></a
+              >
+            </div>
+            <div id="footerright">
+              <p>For- Innotech 2022</p>
+            </div>
+          </footer>
+      <script>
+        const btn = document.getElementById("btn");
+        btn.onclick = function () {
+          const a = document.getElementById("menu");
+          if (a.style.display == "none") {
+            a.style.display = "block";
+          } else {
+            a.style.display = "none";
+          }
+          console.log("CLICKED!");
+        };
+        const btn1 = document.getElementById("btn1");
+        btn1.onclick = function () {
+          const a = document.getElementById("menu");
+          if (a.style.display == "none") {
+            a.style.display = "block";
+          } else {
+            a.style.display = "none";
+          }
+          console.log("CLICKED!");
+        };
+      </script>
+</body>
+</html>

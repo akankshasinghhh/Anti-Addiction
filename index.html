@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="modern.css" />
+    <title>NMBA</title>
+  </head>
+  <body>
+    <nav class="flex">
+      <div id="navleft" class="flex">
+        <button id="btn"><img src="icons8-menu-64.png" alt="menu" /></button>
+        <a href="#" id="name"
+          ><span id="one">Nasha</span><span id="two">Mukt</span
+          ><span id="three">Bharat</span></a
+        >
+      </div>
+      <div class="flex">
+        <a href="login.html"
+          ><img
+            src="iconmonstr-user-19-240.png"
+            alt="login"
+            style="width: 40px"
+        /></a>
+        <p id="login">
+          <a href="login.html" style="text-decoration: none; color: black">
+            Profile</a
+          >
+        </p>
+      </div>
+    </nav>
+    <div id="menu">
+      <button id="btn1"><img src="iconmonstr-x-mark-1-240.png" alt="menu" style="width: 35px; margin-left:15px;"/></button>
+      <div id="menucontainer">
+        <p><a href="login.html">Your Profile</a></p>
+        <p><a href="addictiontst.html">Addiction Test</a></p>
+        <p><a href="stats.html">Global Statistics</a></p>
+        <p><a href="knowledge.html">Managing Addiction</a></p>
+        <!-- <p><a href="#">FAQ</a></p> -->
+        <p><a href="message.html">Messages from Real life fighters</a></p>
+        <p><a href="frm.html">Become a volunteer / Need Volunteers</a></p>
+      </div>
+    </div>
+    <div class="home flex round">
+      <div id="child1">
+        <h2>Sobriety is not an anchor.</h2>
+        <h1>It's a pair of wings.</h1>
+        <p>Feeling attached? Take a test.</p>
+        <a href="addictiontst.html">Click Here</a>
+      </div>
+      <div id="child2">
+        <div id="cvid">
+          <video autoplay loop width="500" id="vid">
+            <source src="pexels-pavel-danilyuk-8427743.mp4" type="video/mp4" />
+
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+        </div>
+      </div>
+    </div>
+    <div id="home2" class="flex">
+        <div id="child5">
+            <h1>
+              Everything
+              you need
+              to know about <br>
+              Substance
+              Addiction
+            </h1>
+            <p>
+                Addiction is one of the most grappling disorders out there. <br />
+                Addiction comes with a lot of challenges for both the person <br />
+                suffering as well as their close friends and family. It is very important <br>
+                to learn about addiction, how it grows and how to control it.
+              </p>
+          </div>
+      <div id="child3" class="round">
+        <h1>Learn about common addictive substances and their effects.</h1>
+        <p><a href="knowledge.html#data" class="learnlink">All about addiction</a></p>
+        <hr />
+        <h1>Addiction comes with Challenges.</h1>
+        <h2>
+          Give it a solid fight,
+          learn all about <br> facing it head on.
+        </h2>
+        <p><a href="knowledge.html#measures" class="learnlink">Managing Addiction</a></p>
+        <!-- <a href="#" class="learnlink">All about addiction</a> -->
+      </div>
+      
+      <!-- <div id="child4">
+        <p>
+          Addiction is one of the most grappling disorders out there. <br />
+          Addiction comes with a lot of challenges for both the person <br />
+          suffering as well as their close friends and family. It is very important <br>
+          to learn about addiction, how it grows and how to control it.
+        </p>
+      </div> -->
+    </div>
+    <div id="home3" class="flex">
+      <div id="child6">
+        <h1>Addiction in Data</h1>
+        <h3>
+          it was estimated that about 732 lakh persons in India were users of
+          alcohol and drugs. Of this 87 lakh used Cannabis, 20 lakh used opiates
+          and 625 lakh were users of Alcohol.
+        </h3>
+        <a href="stats.html">Learn more</a>
+      </div>
+
+      <div id="child7">
+        <img src="meta-chart-copy.png" alt="" />
+      </div>
+    </div>
+
+
+    <div id="contacts" class="round">
+        <div id="containercontacts" class="flex">
+            <div id="cone">
+                <h1 style="color: goldenrod; margin-bottom: 40px; font-size: 2.5em; ">Need Help?</h1>
+                <h2 >National Toll free De-addiction Helpline:</h2> 
+                <h2 style="color: goldenrod; font-size: 3em;">14446</h2>
+                <h1 >Or, <br> contact these locations in the map.</h1>
+            </div>
+            <div id="ctwo">
+              <iframe src="https://www.google.com/maps/d/embed?mid=1tdLtmShkciGDV57B25ZpzI_Mp6CDiN7U&ehbc=2E312F" width="500" height="400" style="margin-left: 200px;"></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="volunteer" class="flex round">
+      <h1>Looking to become a Volunteer/ Need Volunteers</h1>
+      <div class="buttonn"><a href="frm.html">Click Here</a></div>
+    </div>
+    <footer class="flex">
+      <div id="footerleft">
+        <a href="#" id="name"
+          ><span id="one">Nasha</span><span id="two">Mukt</span
+          ><span id="three">Bharat</span></a
+        >
+      </div>
+      <div id="footerright">
+        <p>For- Innotech 2022</p>
+      </div>
+    </footer>
+    <script>
+      const btn = document.getElementById("btn");
+      btn.onclick = function () {
+        const a = document.getElementById("menu");
+        if (a.style.display == "none") {
+          a.style.display = "block";
+        } else {
+          a.style.display = "none";
+        }
+        console.log("CLICKED!");
+      };
+      const btn1 = document.getElementById("btn1");
+      btn1.onclick = function () {
+        const a = document.getElementById("menu");
+        if (a.style.display == "none") {
+          a.style.display = "block";
+        } else {
+          a.style.display = "none";
+        }
+        console.log("CLICKED!");
+      };
+    </script>
+  </body>
+</html>

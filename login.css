@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    /* overflow: hidden; */
+}
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+}
+#cross{
+    position: absolute;
+    top: 4vh;
+    right: 4vw;
+}
+#text{
+    background-color: white;
+    height: 100vh;
+    width: 50vw;
+    transform: skew(-10deg);
+    position: relative;
+    left: -10%;
+}
+#text h2{
+    position: relative;
+    left: 30%;
+    top: 30%;
+    font-size: 4vw;
+    transform: skew(10deg);
+}
+#text h2 span{
+    font-size: 1.5em;
+    color: brown;
+}
+#form{
+    /* background-color: aquamarine; */
+    padding: 30px;
+    height: 50vh;
+    width: 40vw;
+}
+#form h3{
+    font-size: 1.7em;
+    margin-bottom: 30px;
+}
+#form input{
+    padding: 10px;
+    width: 25vw;
+    margin-bottom: 10px;
+    background-color: bisque;
+}
+
+#submit{
+    background-color: purple !important;
+    margin-top: 10px;
+    color: white;
+}
